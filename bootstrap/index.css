@@ -1,58 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
   margin: 0px;
   padding: 0px;
 }
 
-.container {
-  width: 100%;
-  border: 1px solid red;
-  margin: auto;
+.nav {
+  height: 70px;
+  border: 1px solid;
 }
 
-@media (min-width: 425px) {
-  .container {
-    max-width: 425px;
-    border: 1px solid springgreen;
-    margin: auto;
-  }
-}
 
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-    border: 1px solid green;
-    margin: auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    border: 1px solid blue;
-    margin: auto;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-    border: 1px solid purple;
-    margin: auto;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    border: 1px solid aqua;
-    margin: auto;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-    border: 1px solid yellowgreen;
-    margin: auto;
-  }
-}
