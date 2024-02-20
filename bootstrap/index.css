@@ -8,14 +8,9 @@
   xxl: 1400px+ */
 
 @media (max-width: 576px) {
-  .flex-xs-wrap {
-    flex-wrap: wrap;
-  }
-  .card_div {
-    /* max-width: 144px; */
-    > p {
-      text-align: center;
-    }
+  .col-xs-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
