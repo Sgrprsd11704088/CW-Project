@@ -60,6 +60,13 @@
   position: relative;
   left: -20px;
 }
+.row{
+  padding-top: 20px;
+}
+.row2>div img{
+  position: relative;
+  left: -40px;
+}
 @media only screen and (max-width: 768px) {
   #navbar>.container-fluid {
     flex-direction: column;
@@ -113,6 +120,17 @@
     width: 100%;
     margin-bottom: 10px;
   }
+  .row-fluid{
+    flex-direction: column;
+  }
+  .row2{
+    flex-direction: column;
+  }
+  .phone>img{
+     width: 500px;
+     height: 400px;
+  }
+  
 }
 
 
