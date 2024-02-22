@@ -88,6 +88,88 @@ body {
     position: relative;
     top: 9px;
 }
+/* footer css starts here */
+
+#f1 {
+  background-color: #f7f8f9;
+  grid-area: a1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#f2 {
+  background-color: #f7f8f9;
+  padding: 20px;
+  grid-area: a2;
+}
+#f3 {
+  grid-area: a3;
+  > div > p {
+    margin-bottom: 2px;
+  }
+}
+#f4 {
+  background-color: #f7f8f9;
+  padding: 20px 40px 20px 40px;
+  grid-area: a4;
+  > div {
+    text-align: center;
+  }
+}
+#f5 {
+  grid-area: a5;
+  font-size: 14px;
+}
+#footer {
+  display: grid;
+  grid-template-areas:
+    "a1 a1 a1 a2"
+    "a3 a3 a3 a4"
+    "a3 a3 a3 a4"
+    "a5 a5 a5 a4";
+  gap: 1px;
+}
+.fonts {
+  font-weight: 600;
+  line-height: 24px;
+}
+#leaves {
+  left: 68%;
+  top: ;
+}
+#stems {
+  position: absolute;
+  top: 70%;
+}
+#rons {
+  font-size: 20px;
+  margin-bottom: 36px;
+  > span:nth-of-type(1) {
+    color: #85bc4a;
+  }
+  > span:nth-of-type(2) {
+    color: #007dbc;
+  }
+}
+#logo {
+  margin-bottom: 36px;
+}
+#tricol {
+  height: 6px;
+ position: absolute;
+  top: 123%;
+  > div:nth-of-type(1) {
+    background-color: #007dbc;
+    width: 400px;
+  }
+  > div:nth-of-type(2) {
+    background-color: #ff600a;
+    width: 200px;
+  }
+  > div:nth-of-type(3) {
+    background-color: #02be8a;
+    width: 150px;
+  }
+}
 #img1>img {
   width: 100px;
   height: 40px;
@@ -166,5 +248,3 @@ body {
   }
   
 }
-
-
