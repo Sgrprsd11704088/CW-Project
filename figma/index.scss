@@ -105,3 +105,202 @@ body {
     }
   }
 }
+
+.best_of_new_york {
+  margin-top: 115px;
+
+  > h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+
+    &:nth-child(1) {
+      color: #05073c;
+    }
+
+    & :nth-child(2) {
+      color: #c6c6d2;
+    }
+  }
+
+  .card {
+    width: 300px;
+    border-radius: 12px;
+    border: 1px solid #e7e6e6;
+    position: relative;
+    img {
+      width: 100%;
+      border-radius: 12px 12px 0px 0px;
+    }
+
+    .card_data {
+      margin-left: 21px;
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #717171;
+    }
+
+    h3 {
+      margin: 0px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #05073c;
+    }
+
+    .score {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    .bottom_div {
+      width: 258px;
+      border-top: 1px solid #e7e6e6;
+      display: flex;
+      justify-content: space-between;
+      > p {
+        &:nth-child(1) {
+          margin-left: 21px;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 24px;
+          color: #05073c;
+        }
+
+        &:nth-child(2) {
+          > span:nth-child(1) {
+            color: #05073c;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 24px;
+          }
+
+          > span:nth-child(2) {
+            color: #05073c;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .circle {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 195px;
+    left: 254px;
+  }
+
+  .cards_of_new_york {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.activities {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 225px;
+
+  > div {
+    border-radius: 12px;
+    width: 410px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > div {
+      margin-left: 40px;
+
+      > p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        color: white;
+      }
+
+      > h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        color: white;
+      }
+
+      > button {
+        padding: 17px 61px 17px 36px;
+        border: none;
+        border-radius: 12px;
+        width: 192px;
+        > span {
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 28px;
+        }
+      }
+    }
+
+    &:nth-child(1) {
+      background-image: url("./assets/glass_pyramid.svg");
+    }
+
+    &:nth-child(2) {
+      background-image: url("./assets/kayaking.svg");
+    }
+
+    &:nth-child(3) {
+      background-image: url("./assets/venice.svg");
+    }
+  }
+}
+
+.popular_things_to_do {
+  height: 693px;
+  margin-top: 120px;
+  // background-color: #eb662b0d;
+
+  .grid_system {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    > div {
+      &:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 45px;
+          color: #05073c;
+        }
+
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 28px;
+        }
+
+        button {
+          background-color: #eb662b;
+          border: none;
+          width: 100%;
+        }
+      }
+
+      &:nth-child(2) {
+        background-color: green;
+      }
+    }
+  }
+}
