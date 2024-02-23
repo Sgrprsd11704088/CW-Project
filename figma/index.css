@@ -259,49 +259,102 @@ body {
 }
 
 footer {
+  background-image: url(./Footer.png);
+  background-size: cover;
   background-color: #05073c;
-}
-
-.footer {
   color: white;
-  display: grid;
-  grid-template-areas: "a1 a1 a1 a1" "a2 a3 a4 a5" "a2 a3 a4 a5" "a2 a3 a4 a5" "a6 a6 a6 a6";
 }
-.footer > div:nth-child(1) {
+footer > div {
+  height: 655.13px;
+  padding-bottom: 80.1px;
+}
+footer > div > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
-  grid-area: a1;
+  padding: 94.31px 0px 64.82px 80px;
+  border-bottom: 1px solid #fccbb6;
 }
-.footer > div:nth-child(2) {
-  border: 1px solid rgba(255, 255, 255, 0.1490196078);
+footer > div > div:nth-of-type(1) > p:nth-of-type(1) {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: left;
 }
-.footer > div:nth-child(2) > div:nth-child(1) {
-  grid-area: a2;
+footer > div > div:nth-of-type(1) > p:nth-of-type(2) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  margin-right: 169.8px;
+  text-align: left;
 }
-.footer > div:nth-child(2) > div:nth-child(1) > p:nth-child(1) {
+footer > div > div:nth-of-type(2) {
+  display: grid;
+  grid-template-areas: "q1 q1 q2 q3 q4 q4 ";
+}
+footer > div > div:nth-of-type(2) > div {
+  margin-right: 100.7px;
+  margin-top: 39.99px;
+}
+footer > div > div:nth-of-type(2) > div > h4 {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
+  text-align: left;
 }
-.footer > div:nth-child(2) > div:nth-child(1) > p:nth-child(2) {
+footer > div > div:nth-of-type(2) > div > p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+footer > div > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 439.98px;
+  height: 390px;
+  padding: 0px 0px 0px 15px;
+  grid-area: q1;
+}
+footer > div > div:nth-of-type(2) > div:nth-of-type(1) > p {
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
+  text-align: left;
 }
-.footer > div:nth-child(2) > div:nth-child(1) > p:nth-child(3) {
-  font-size: 14px;
+footer > div > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 128.23px;
+  height: 390px;
+  grid-area: q2;
+}
+footer > div > div:nth-of-type(2) > div:nth-of-type(3) {
+  width: 119.59px;
+  height: 390px;
+  grid-area: q3;
+}
+footer > div > div:nth-of-type(2) > div:nth-of-type(4) {
+  width: 330px;
+  height: 390px;
+  grid-area: q4;
+}
+footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
+  font-size: 15px;
   font-weight: 400;
   line-height: 28px;
+  text-align: left;
 }
-.footer > div:nth-child(2) > div:nth-child(2) {
-  grid-area: a3;
+
+#copywrite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #05073c;
+  color: white;
 }
-.footer > div:nth-child(2) > div:nth-child(3) {
-  grid-area: a4;
+#copywrite > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
 }
-.footer > div:nth-child(2) > div:nth-child(4) {
-  grid-area: a5;
-}
+
 .trending_Destinations > div {
   display: flex;
   justify-content: space-between;
@@ -333,4 +386,8 @@ footer {
   font-weight: 400;
   line-height: 18px;
   margin-top: 5px;
+}
+
+#cr {
+  background-color: #05073c;
 }/*# sourceMappingURL=index.css.map */
