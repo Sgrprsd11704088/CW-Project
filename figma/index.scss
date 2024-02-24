@@ -542,10 +542,10 @@ footer {
   padding-top: 120px;
   padding-bottom: 105px;
 }
-#toury>div:nth-of-type(1){
-font-size: 30px;
-font-weight: 700;
-margin-bottom: 40px;
+#toury > div:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 #toury > div:nth-of-type(2) {
@@ -570,3 +570,39 @@ margin-bottom: 40px;
   margin-top: 40px;
   padding: 15px, 45.44px, 15px, 15px;
 }
+#Travel_articles {
+  padding-top: 115px;
+  padding-bottom: 105px;
+
+}
+#Travel_articles>div{
+  padding:5px 15px 17px 15px;
+ >div:nth-of-type(1){
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 45px;
+ }
+ >div:nth-of-type(2){
+  display: flex;
+  gap:30px;
+ }
+ >div:nth-of-type(3){
+  display: flex;
+gap: 55px;
+ }
+}
+ #Travel_articles>div>div:nth-of-type(3){
+  >div>div:nth-of-type(1){
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+margin-top:34px;
+margin-bottom: 15px;
+  }
+  >div>div:nth-of-type(2){
+font-size: 17px;
+font-weight: 500;
+line-height: 27px;
+width: 390px;
+  }
+ }
