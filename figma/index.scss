@@ -8,7 +8,7 @@ body {
 
 @media (min-width: 1320px) {
   .container {
-    width: 1320px;
+    max-width: 1320px;
     margin: auto;
     // border: 1px solid red;
   }
@@ -306,8 +306,6 @@ body {
 }
 
 
-.city_section
-
 .mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
   background-size: contain;
@@ -469,6 +467,7 @@ footer {
   }
 }
 
+
 .travel_articles {
   > div {
     display: flex;
@@ -507,9 +506,72 @@ footer {
 #cr {
   background-color: #05073c;
 }
-#tourist_says{
- background-color: #fdefea;
- padding-top: 120px;
- 
+#tourist_says {
+  background-color: #fdefea;
+  padding-top: 120px;
+  padding-bottom: 105px;
+}
+#toury > div:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#toury > div:nth-of-type(2) {
+  display: flex;
+  gap: 30px;
+}
+#toury > div:nth-of-type(3) {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#toury > div > div {
+  > div:nth-of-type(1) {
+    font-size: 28.13px;
+    font-weight: 700;
+  }
+  > div:nth-of-type(2) {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  width: 439.98px;
+  margin-top: 40px;
+  padding: 15px, 45.44px, 15px, 15px;
+}
+#Travel_articles {
+  padding-top: 115px;
+  padding-bottom: 105px;
 
 }
+#Travel_articles>div{
+  padding:5px 15px 17px 15px;
+ >div:nth-of-type(1){
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 45px;
+ }
+ >div:nth-of-type(2){
+  display: flex;
+  gap:30px;
+ }
+ >div:nth-of-type(3){
+  display: flex;
+gap: 55px;
+ }
+}
+ #Travel_articles>div>div:nth-of-type(3){
+  >div>div:nth-of-type(1){
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+margin-top:34px;
+margin-bottom: 15px;
+  }
+  >div>div:nth-of-type(2){
+font-size: 17px;
+font-weight: 500;
+line-height: 27px;
+width: 390px;
+  }
+ }
