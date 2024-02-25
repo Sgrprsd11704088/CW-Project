@@ -264,42 +264,79 @@ body {
   }
 }
 
-.popular_things_to_do {
+.popular_things_to_do_background {
+  background-color: #eb662b0d;
+  // background-color: red;
   height: 693px;
   margin-top: 120px;
-  // background-color: #eb662b0d;
+  margin-bottom: 115px;
+}
 
-  .grid_system {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.popular_things_to_do {
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  box-sizing: border-box;
 
-    > div {
-      &:nth-child(1) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        h1 {
-          font-size: 30px;
-          font-weight: 700;
-          line-height: 45px;
-          color: #05073c;
+  > div {
+    &:nth-child(1) {
+      width: 440px;
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #05073c;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #05073c;
+      }
+
+      button {
+        width: 100%;
+        padding: 21px 194px 21px 169px;
+        background-color: #eb662b;
+        border: none;
+        border-radius: 12px;
+        color: white;
+
+        span {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 28px;
+          text-align: center;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+
+      > div {
+        width: 190px;
+        height: 212px;
+        border-radius: 12px;
+        background-color: white;
+
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 27px;
         }
 
         p {
-          font-size: 15px;
+          font-size: 14px;
           font-weight: 400;
-          line-height: 28px;
+          line-height: 20px;
+          text-align: center;
         }
-
-        button {
-          background-color: #eb662b;
-          border: none;
-          width: 100%;
-        }
-      }
-
-      &:nth-child(2) {
-        background-color: green;
       }
     }
   }
@@ -575,10 +612,9 @@ footer {
 //  City Section CSS
 
 .city_section {
+  margin-top: 120px;
   background-image: url("./assets/city_picture.svg");
   height: 712px;
-  // background-repeat: no-repeat;
-  // overflow: hidden;
   background-size: cover;
   display: flex;
   justify-content: center;
