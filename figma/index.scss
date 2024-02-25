@@ -306,6 +306,14 @@ body {
 }
 
 
+.city_section
+
+.mailing_section {
+  background-image: url("./assets/man_with_backpack.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 footer {
   background-image: url(./Footer.png);
   background-size: cover;
@@ -401,6 +409,7 @@ footer {
     }
   }
 }
+
 #copywrite {
   display: flex;
   justify-content: space-between;
@@ -416,6 +425,7 @@ footer {
     text-align: left;
   }
 }
+
 .trending_Destinations {
   > div {
     display: flex;
@@ -458,6 +468,48 @@ footer {
     }
   }
 }
+
+.travel_articles {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > p {
+      &:nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #05073c;
+      }
+
+      &:nth-child(2) {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #05073c;
+      }
+    }
+  }
+
+  .desc {
+    color: #05073c;
+    > p:nth-child(1) {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        margin: 0px;
+      
+    }
+  }
+}
+
 #cr {
   background-color: #05073c;
+}
+#tourist_says{
+ background-color: #fdefea;
+ padding-top: 120px;
+ 
+
 }
