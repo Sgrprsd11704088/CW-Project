@@ -24,7 +24,7 @@ my-app/ <br/>
 ├─ README.md <br/>
 
 ## Video Walkthrough of the project
-
+figma : https://youtu.be/rrIEoX9xJ9A
 
 ## Video Walkthrough of the codebase
 
