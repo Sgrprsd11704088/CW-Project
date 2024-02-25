@@ -258,7 +258,7 @@ body {
   background-color: green;
 }
 
-.city_section .mailing_section {
+.mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
   background-size: contain;
   background-repeat: no-repeat;
