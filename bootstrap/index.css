@@ -126,7 +126,18 @@ body {
     "a3 a3 a3 a4"
     "a3 a3 a3 a4"
     "a5 a5 a5 a4";
-  gap: 1px;
+  gap: 2px;
+}
+@media (max-width:1280px) {
+  #footer {
+  
+    grid-template-areas: "a1 a1 a1 a2"
+                         "a3 a3 a3 a3"
+                         "a3 a3 a3 a3"
+                         "a5 a5 a5 a5"
+                         "a4 a4 a4 a4";
+   
+  }
 }
 .fonts {
   font-weight: 600;
