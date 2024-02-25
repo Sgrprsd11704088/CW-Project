@@ -13,13 +13,13 @@ Figma's landing page: https://cw-project-nlti-git-main-sagar-prasads-projects.ve
 ## Directory Structure
 my-app/ <br/>
 ├─ bootstrap/ <br/>
-  ├─ index.html <br/>
-  ├─ index.css <br/>
-  ├─ ... <br/>
+  ├─ index.html __
+  ├─ index.css __
+  ├─ ... __
 ├─ figma/ <br/>
-  ├─ assets/ <br/>
-  ├─ index.html <br/>
-  ├─ index.scss <br/>
+  ├─ assets/ __
+  ├─ index.html __
+  ├─ index.scss __
 ├─ .gitignore <br/>
 ├─ README.md <br/>
 
@@ -37,16 +37,17 @@ It is a clone of the landing page of Decathlon.in
 
 ## design decisions or assumptions
 List your design decisions & assumptions
-We were provided a website link and figma design by our IA(Rahul Rajeevn).
-We made a clone of the decathlon website by using a third-party application called bootstrap.
-For the Figma design, we have used a preprocessor for CSS which is SASS.
+
+-- **We were provided a website link and figma design by our IA(Rahul Rajeevn).**
+-- We made a clone of the decathlon website by using a third-party application called **bootstrap.**
+-- For the Figma design, we have used a preprocessor for CSS which is **SASS.**
 
 ## Installation & Getting started
 Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
 ```bash
-npm i
-run the html files over live server
+**npm i** - to install the required packages
+**run the html files over live server** - to run the files over live server
 ```
 
 ## Usage
@@ -66,8 +67,8 @@ Include screenshots as necessary.
 ## Technology Stack
 List and provide a brief overview of the technologies used in the project.
 
--html5
--Cascading Style Sheets
--SASS
--BootStrap
+-html5 <br />
+-Cascading Style Sheets <br />
+-SASS <br />
+-BootStrap <br />
 
