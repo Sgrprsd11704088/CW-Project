@@ -139,6 +139,7 @@ body {
 #stems {
   position: absolute;
   top: 70%;
+  z-index: 1;
 }
 #rons {
   font-size: 20px;

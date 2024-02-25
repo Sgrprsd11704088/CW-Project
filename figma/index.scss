@@ -12,6 +12,10 @@ body {
     margin: auto;
     // border: 1px solid red;
   }
+  .container2 {
+    max-width: 1555px;
+    margin: auto;
+  }
 }
 
 .background {
@@ -342,7 +346,7 @@ body {
   }
 }
 
-.mailing_section {
+.city_section .mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
   background-size: cover;
   // background-repeat: no-repeat;
@@ -618,6 +622,25 @@ footer {
   padding-top: 115px;
   padding-bottom: 105px;
 }
+
+#Travel_articles > div {
+  padding: 5px 15px 17px 15px;
+
+  > div:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 45px;
+  }
+  > div:nth-of-type(2) {
+    display: flex;
+    gap: 30px;
+  }
+  > div:nth-of-type(3) {
+    display: flex;
+    gap: 55px;
+  }
+}
+}
 #Travel_articles > div {
   padding: 5px 15px 17px 15px;
   > div:nth-of-type(1) {
@@ -649,6 +672,83 @@ footer {
     width: 390px;
   }
 }
+#cr {
+  border-top: 0.3px solid white;
+}
+#choose_tours > div:nth-of-type(1) {
+  background-color: #fdefea;
+  padding: 120px 592px 86px 218px;
+  width: 1250px;
+  height: 701.63px;
+  box-sizing: border-box;
+}
+#choose_tours {
+  position: relative;
+}
+
+#choose_tours > div:nth-of-type(1) {
+  > div:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 182px;
+    padding: 3px 244px 63px 15px;
+  }
+
+  > div:nth-of-type(1) ~ div {
+    display: flex;
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 48px;
+  }
+}
+
+.text {
+  > div:nth-of-type(1) {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    padding-bottom: 14px;
+  }
+  > div:nth-of-type(2) {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 297.6px;
+    padding-bottom: 34px;
+  }
+}
+#air-balloon {
+  position: absolute;
+  width: 610px;
+  top: 50px;
+  left: 945px;
+}
+#contribution > div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+#contribution>div>div{
+&>div:nth-of-type(2){
+  font-size: 38px;
+  font-weight: 700;
+margin-top: 30px;
+}
+&>div:nth-of-type(3){
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+
 
 //  City Section CSS
 
