@@ -305,84 +305,14 @@ body {
   }
 }
 
-// .mailing_section {
-//   background-image: url("./assets/man_with_backpack.svg");
-//   background-size: contain;
-//   background-repeat: no-repeat;
-//   height: 499px;
-//   display: grid;
-//   grid-template-areas: "a1 a2";
+.city_section
 
-//   > div {
+.mailing_section {
+  background-image: url("./assets/man_with_backpack.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
-//   }
-// }
-
-// footer {
-//   background-color: #05073c;
-// }
-
-// .footer {
-//   color: white;
-//   display: grid;
-//   grid-template-areas:
-//     "a1 a1 a1 a1"
-//     "a2 a3 a4 a5"
-//     "a2 a3 a4 a5"
-//     "a2 a3 a4 a5"
-//     "a6 a6 a6 a6";
-
-//   > div:nth-child(1) {
-//     display: flex;
-//     justify-content: space-between;
-//     grid-area: a1;
-//   }
-
-//   > div:nth-child(2) {
-//     border: 1px solid #ffffff26;
-
-//     > div {
-//       &:nth-child(1) {
-//         grid-area: a2;
-
-//         > p {
-//           &:nth-child(1) {
-//             font-size: 20px;
-//             font-weight: 500;
-//             line-height: 30px;
-//           }
-
-//           &:nth-child(2) {
-//             font-size: 14px;
-//             font-weight: 400;
-//             line-height: 28px;
-//           }
-
-//           &:nth-child(3) {
-//             font-size: 14px;
-//             font-weight: 400;
-//             line-height: 28px;
-//           }
-//         }
-//       }
-
-//       &:nth-child(2) {
-//         grid-area: a3;
-//       }
-
-//       &:nth-child(3) {
-//         grid-area: a4;
-//       }
-
-//       &:nth-child(4) {
-//         grid-area: a5;
-//       }
-//     }
-//   }
-
-//   > div:nth-child(3) {
-//   }
-// }
 footer {
   background-image: url(./Footer.png);
   background-size: cover;
@@ -396,7 +326,7 @@ footer {
       display: flex;
       justify-content: space-between;
       padding: 94.31px 0px 64.82px 80px;
-      border-bottom: 1px solid #fccbb6;
+
       > p:nth-of-type(1) {
         font-weight: 500;
         font-size: 20px;
@@ -415,7 +345,7 @@ footer {
 
     > div:nth-of-type(2) {
       display: grid;
-
+      border-top: 1px solid #fccbb6;
       grid-template-areas: "q1 q1 q2 q3 q4 q4 ";
       > div {
         margin-right: 100.7px;
@@ -478,10 +408,12 @@ footer {
     }
   }
 }
+
 #copywrite {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #fccbb6;
   background-color: #05073c;
   color: white;
   > p {
@@ -492,6 +424,7 @@ footer {
     text-align: left;
   }
 }
+
 .trending_Destinations {
   > div {
     display: flex;
@@ -534,6 +467,43 @@ footer {
     }
   }
 }
+
+
+.travel_articles {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > p {
+      &:nth-child(1) {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #05073c;
+      }
+
+      &:nth-child(2) {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #05073c;
+      }
+    }
+  }
+
+  .desc {
+    color: #05073c;
+    > p:nth-child(1) {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        margin: 0px;
+      
+    }
+  }
+}
+
 #cr {
   background-color: #05073c;
 }

@@ -258,6 +258,12 @@ body {
   background-color: green;
 }
 
+.city_section .mailing_section {
+  background-image: url("./assets/man_with_backpack.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 footer {
   background-image: url(./Footer.png);
   background-size: cover;
@@ -272,7 +278,6 @@ footer > div > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
   padding: 94.31px 0px 64.82px 80px;
-  border-bottom: 1px solid #fccbb6;
 }
 footer > div > div:nth-of-type(1) > p:nth-of-type(1) {
   font-weight: 500;
@@ -289,6 +294,7 @@ footer > div > div:nth-of-type(1) > p:nth-of-type(2) {
 }
 footer > div > div:nth-of-type(2) {
   display: grid;
+  border-top: 1px solid #fccbb6;
   grid-template-areas: "q1 q1 q2 q3 q4 q4 ";
 }
 footer > div > div:nth-of-type(2) > div {
@@ -345,6 +351,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid #fccbb6;
   background-color: #05073c;
   color: white;
 }
@@ -386,6 +393,33 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   font-weight: 400;
   line-height: 18px;
   margin-top: 5px;
+}
+
+.travel_articles > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.travel_articles > div > p:nth-child(1) {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #05073c;
+}
+.travel_articles > div > p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #05073c;
+}
+.travel_articles .desc {
+  color: #05073c;
+}
+.travel_articles .desc > p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  margin: 0px;
 }
 
 #cr {
