@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 @media (min-width: 1320px) {
@@ -76,6 +77,33 @@ body {
   line-height: 28px;
   color: white;
   margin-top: 17px;
+}
+.heading div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading div img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.heading div input {
+  width: 470px;
+  height: 70px;
+  padding: 25px 0px 25px 55px;
+  border-radius: 200px;
+  border: none;
+  position: relative;
+}
+.heading div .circle {
+  height: 50px;
+  width: 50px;
+  background-color: #eb662b;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  z-index: 1;
 }
 
 .short_btns {
@@ -433,6 +461,10 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   text-align: left;
 }
 
+.trending_Destinations {
+  margin-top: 115px;
+  margin-bottom: 105px;
+}
 .trending_Destinations > div {
   display: flex;
   justify-content: space-between;
@@ -556,6 +588,23 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   gap: 55px;
 }
 
+#Travel_articles > div {
+  padding: 5px 15px 17px 15px;
+}
+#Travel_articles > div > div:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 45px;
+}
+#Travel_articles > div > div:nth-of-type(2) {
+  display: flex;
+  gap: 30px;
+}
+#Travel_articles > div > div:nth-of-type(3) {
+  display: flex;
+  gap: 55px;
+}
+
 #Travel_articles > div > div:nth-of-type(3) > div > div:nth-of-type(1) {
   font-size: 14px;
   font-weight: 400;
@@ -639,6 +688,11 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   margin-top: 30px;
 }
 #contribution > div > div > div:nth-of-type(3) {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
 .city_section {
   margin-top: 120px;
   background-image: url("./assets/city_picture.svg");
@@ -667,6 +721,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
 .about_us {
   display: flex;
   justify-content: space-around;
+  margin-top: 120px;
 }
 .about_us > div {
   color: #05073c;
