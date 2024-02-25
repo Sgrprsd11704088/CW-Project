@@ -497,4 +497,49 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   font-weight: 500;
   line-height: 27px;
   width: 390px;
+}
+
+.city_section {
+  background-image: url("./assets/city_picture.svg");
+  height: 712px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city_section > div {
+  color: white;
+  text-align: center;
+}
+.city_section > div h1 {
+  font-size: 69px;
+  font-weight: 700;
+  line-height: 105px;
+  margin: 0px;
+}
+.city_section > div p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.about_us {
+  display: flex;
+  justify-content: space-around;
+}
+.about_us > div {
+  color: #05073c;
+  text-align: center;
+}
+.about_us > div h3 {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.about_us > div p {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
 }/*# sourceMappingURL=index.css.map */

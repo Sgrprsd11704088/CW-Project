@@ -305,7 +305,6 @@ body {
   }
 }
 
-
 .mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
   background-size: contain;
@@ -467,7 +466,6 @@ footer {
   }
 }
 
-
 .travel_articles {
   > div {
     display: flex;
@@ -494,11 +492,10 @@ footer {
   .desc {
     color: #05073c;
     > p:nth-child(1) {
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 27px;
-        margin: 0px;
-      
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 27px;
+      margin: 0px;
     }
   }
 }
@@ -542,36 +539,88 @@ footer {
 #Travel_articles {
   padding-top: 115px;
   padding-bottom: 105px;
+}
+#Travel_articles > div {
+  padding: 5px 15px 17px 15px;
+  > div:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 45px;
+  }
+  > div:nth-of-type(2) {
+    display: flex;
+    gap: 30px;
+  }
+  > div:nth-of-type(3) {
+    display: flex;
+    gap: 55px;
+  }
+}
+#Travel_articles > div > div:nth-of-type(3) {
+  > div > div:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 34px;
+    margin-bottom: 15px;
+  }
+  > div > div:nth-of-type(2) {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 390px;
+  }
+}
 
-}
-#Travel_articles>div{
-  padding:5px 15px 17px 15px;
- >div:nth-of-type(1){
-font-size: 30px;
-font-weight: 700;
-padding-bottom: 45px;
- }
- >div:nth-of-type(2){
+//  City Section CSS
+
+.city_section {
+  background-image: url("./assets/city_picture.svg");
+  height: 712px;
+  // background-repeat: no-repeat;
+  // overflow: hidden;
+  background-size: cover;
   display: flex;
-  gap:30px;
- }
- >div:nth-of-type(3){
-  display: flex;
-gap: 55px;
- }
+  justify-content: center;
+  align-items: center;
+  > div {
+    color: white;
+    text-align: center;
+    h1 {
+      font-size: 69px;
+      font-weight: 700;
+      line-height: 105px;
+      margin: 0px;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
 }
- #Travel_articles>div>div:nth-of-type(3){
-  >div>div:nth-of-type(1){
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-margin-top:34px;
-margin-bottom: 15px;
+
+// About US CSS
+
+.about_us {
+  display: flex;
+  justify-content: space-around;
+  > div {
+    color: #05073c;
+    text-align: center;
+    h3 {
+      margin: 0px;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 56px;
+    }
+
+    p {
+      margin: 0px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+    }
   }
-  >div>div:nth-of-type(2){
-font-size: 17px;
-font-weight: 500;
-line-height: 27px;
-width: 390px;
-  }
- }
+}
