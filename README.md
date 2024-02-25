@@ -24,10 +24,12 @@ my-app/ <br/>
 ├─ README.md <br/>
 
 ## Video Walkthrough of the project
+bootstrap : https://youtu.be/3XUNt5jfe3Q
 figma : https://youtu.be/rrIEoX9xJ9A
 
 ## Video Walkthrough of the codebase
-
+bootstrap : https://youtu.be/lx76fstoCTA
+figma: https://youtu.be/ZXi843AqAsg
 
 ## Features
 List out the key features of your application.
