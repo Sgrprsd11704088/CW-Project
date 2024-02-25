@@ -268,42 +268,79 @@ body {
   }
 }
 
-.popular_things_to_do {
+.popular_things_to_do_background {
+  background-color: #eb662b0d;
+  // background-color: red;
   height: 693px;
   margin-top: 120px;
-  // background-color: #eb662b0d;
+  margin-bottom: 115px;
+}
 
-  .grid_system {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.popular_things_to_do {
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  box-sizing: border-box;
 
-    > div {
-      &:nth-child(1) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        h1 {
-          font-size: 30px;
-          font-weight: 700;
-          line-height: 45px;
-          color: #05073c;
+  > div {
+    &:nth-child(1) {
+      width: 440px;
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 45px;
+        color: #05073c;
+      }
+
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #05073c;
+      }
+
+      button {
+        width: 100%;
+        padding: 21px 194px 21px 169px;
+        background-color: #eb662b;
+        border: none;
+        border-radius: 12px;
+        color: white;
+
+        span {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 28px;
+          text-align: center;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+
+      > div {
+        width: 190px;
+        height: 212px;
+        border-radius: 12px;
+        background-color: white;
+
+        h4 {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 27px;
         }
 
         p {
-          font-size: 15px;
+          font-size: 14px;
           font-weight: 400;
-          line-height: 28px;
+          line-height: 20px;
+          text-align: center;
         }
-
-        button {
-          background-color: #eb662b;
-          border: none;
-          width: 100%;
-        }
-      }
-
-      &:nth-child(2) {
-        background-color: green;
       }
     }
   }
@@ -311,8 +348,49 @@ body {
 
 .city_section .mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  background-position: center;
+  height: 499px;
+  padding-top: 120px;
+
+  .content {
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 45px;
+      color: white;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 28px;
+      color: white;
+    }
+
+    > div {
+      position: relative;
+      input {
+        padding: 30px 0px 30px 25px;
+        width: 450px;
+        border: none;
+        border-radius: 12px;
+        background-color: #ffffff1a;
+        color: white;
+        position: relative;
+        // height: 80px;
+      }
+
+      button {
+        padding: 20px 36px;
+        border: none;
+        border-radius: 12px;
+        position: absolute;
+        top: 10px;
+      }
+    }
+  }
 }
 
 footer {
@@ -544,9 +622,27 @@ footer {
   padding-top: 115px;
   padding-bottom: 105px;
 }
+
 #Travel_articles > div {
   padding: 5px 15px 17px 15px;
 
+  > div:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 45px;
+  }
+  > div:nth-of-type(2) {
+    display: flex;
+    gap: 30px;
+  }
+  > div:nth-of-type(3) {
+    display: flex;
+    gap: 55px;
+  }
+}
+}
+#Travel_articles > div {
+  padding: 5px 15px 17px 15px;
   > div:nth-of-type(1) {
     font-size: 30px;
     font-weight: 700;
@@ -653,4 +749,55 @@ margin-top: 30px;
 }
 
 
+
+//  City Section CSS
+
+.city_section {
+  margin-top: 120px;
+  background-image: url("./assets/city_picture.svg");
+  height: 712px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > div {
+    color: white;
+    text-align: center;
+    h1 {
+      font-size: 69px;
+      font-weight: 700;
+      line-height: 105px;
+      margin: 0px;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+}
+
+// About US CSS
+
+.about_us {
+  display: flex;
+  justify-content: space-around;
+  > div {
+    color: #05073c;
+    text-align: center;
+    h3 {
+      margin: 0px;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 56px;
+    }
+
+    p {
+      margin: 0px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 23px;
+    }
+  }
 }
