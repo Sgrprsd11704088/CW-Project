@@ -629,6 +629,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   width: 1250px;
   height: 701.63px;
   box-sizing: border-box;
+  border-radius: 24px;
 }
 
 #choose_tours {
@@ -667,7 +668,7 @@ footer > div > div:nth-of-type(2) > div:nth-of-type(4) > p {
   position: absolute;
   width: 610px;
   top: 50px;
-  left: 745px;
+  left: 945px;
 }
 
 #contribution > div {
