@@ -4,6 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 
 @media (min-width: 1320px) {
@@ -89,6 +90,39 @@ body {
     line-height: 28px;
     color: white;
     margin-top: 17px;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: relative;
+    img {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      // margin: auto;
+    }
+
+    input {
+      width: 470px;
+      height: 70px;
+      padding: 25px 0px 25px 55px;
+      border-radius: 200px;
+      border: none;
+      position: relative;
+    }
+
+    .circle {
+      height: 50px;
+      width: 50px;
+      background-color: #eb662b;
+      border-radius: 50%;
+      position: absolute;
+      right: 10px;
+      z-index: 1;
+      // position: absolute;
+    }
   }
 }
 
@@ -346,7 +380,7 @@ body {
   }
 }
 
-.city_section .mailing_section {
+.mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
   background-size: cover;
   // background-repeat: no-repeat;
@@ -506,6 +540,8 @@ footer {
 }
 
 .trending_Destinations {
+  margin-top: 115px;
+  margin-bottom: 105px;
   > div {
     display: flex;
     justify-content: space-between;
@@ -585,11 +621,13 @@ footer {
 #cr {
   background-color: #05073c;
 }
+
 #tourist_says {
   background-color: #fdefea;
   padding-top: 120px;
   padding-bottom: 105px;
 }
+
 #toury > div:nth-of-type(1) {
   font-size: 30px;
   font-weight: 700;
@@ -640,7 +678,7 @@ footer {
     gap: 55px;
   }
 }
-}
+
 #Travel_articles > div {
   padding: 5px 15px 17px 15px;
   > div:nth-of-type(1) {
@@ -736,19 +774,18 @@ footer {
     text-align: center;
   }
 }
-#contribution>div>div{
-&>div:nth-of-type(2){
-  font-size: 38px;
-  font-weight: 700;
-margin-top: 30px;
+#contribution > div > div {
+  & > div:nth-of-type(2) {
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  & > div:nth-of-type(3) {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+  }
 }
-&>div:nth-of-type(3){
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 23px;
-}
-
-
 
 //  City Section CSS
 
@@ -783,6 +820,7 @@ margin-top: 30px;
 .about_us {
   display: flex;
   justify-content: space-around;
+  margin-top: 120px;
   > div {
     color: #05073c;
     text-align: center;
