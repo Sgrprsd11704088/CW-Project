@@ -7,14 +7,21 @@ We have created a clone of the landing page of Decathlon and also replicated a f
 Frontend
 
 ## Deplolyed App
-Decathlon Frontend: : https://cw-project-git-main-sagar-prasads-projects.vercel.app/
+Decathlon Frontend: https://cw-project-git-main-sagar-prasads-projects.vercel.app/
 Figma's landing page: https://cw-project-nlti-git-main-sagar-prasads-projects.vercel.app/
 
 ## Directory Structure
 my-app/
-├─ backend/
-├─ frontend/
-│  ├─ ...
+├─ bootstrap/
+  ├─ index.html
+  ├─ index.css
+  ├─ ...
+├─ figma/
+  ├─ assets/
+  ├─ index.html
+  ├─ index.scss
+├─ .gitignore
+├─ README.md
 
 ## Video Walkthrough of the project
 
@@ -30,16 +37,16 @@ It is a clone of the landing page of Decathlon.in
 
 ## design decisions or assumptions
 List your design decisions & assumptions
-We were provided a website link and figma design by our IA(Rahul Rajeevn) 
+We were provided a website link and figma design by our IA(Rahul Rajeevn).
 We made a clone of the decathlon website by using a third-party application called bootstrap.
 For the Figma design, we have used a preprocessor for CSS which is SASS.
+
 ## Installation & Getting started
 Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
 ```bash
-npm install my-project
-cd my-project
-npm start
+npm i
+run the html files over live server
 ```
 
 ## Usage
@@ -51,6 +58,9 @@ Provide instructions and examples on how to use your project.
 ```
 
 Include screenshots as necessary.
+
+![figma_website_screenshot_min](https://github.com/Sgrprsd11704088/CW-Project/assets/158509626/c8a52e5b-4891-4a5b-b2b0-7d4a896e7b63)
+
 
 
 ## Technology Stack
