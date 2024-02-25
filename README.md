@@ -7,21 +7,21 @@ We have created a clone of the landing page of Decathlon and also replicated a f
 Frontend
 
 ## Deplolyed App
-Decathlon Frontend: https://cw-project-git-main-sagar-prasads-projects.vercel.app/
+Decathlon Frontend: https://cw-project-git-main-sagar-prasads-projects.vercel.app/ <br/>
 Figma's landing page: https://cw-project-nlti-git-main-sagar-prasads-projects.vercel.app/
 
 ## Directory Structure
-my-app/
-├─ bootstrap/
-  ├─ index.html
-  ├─ index.css
-  ├─ ...
-├─ figma/
-  ├─ assets/
-  ├─ index.html
-  ├─ index.scss
-├─ .gitignore
-├─ README.md
+my-app/ <br/>
+├─ bootstrap/ <br/>
+  ├─ index.html <br/>
+  ├─ index.css <br/>
+  ├─ ... <br/>
+├─ figma/ <br/>
+  ├─ assets/ <br/>
+  ├─ index.html <br/>
+  ├─ index.scss <br/>
+├─ .gitignore <br/>
+├─ README.md <br/>
 
 ## Video Walkthrough of the project
 
