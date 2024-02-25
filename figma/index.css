@@ -294,8 +294,41 @@ body {
 
 .mailing_section {
   background-image: url("./assets/man_with_backpack.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 499px;
+  padding-top: 120px;
+}
+.mailing_section .content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  color: white;
+}
+.mailing_section .content p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: white;
+}
+.mailing_section .content > div {
+  position: relative;
+}
+.mailing_section .content > div input {
+  padding: 30px 0px 30px 25px;
+  width: 450px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  color: white;
+  position: relative;
+}
+.mailing_section .content > div button {
+  padding: 20px 36px;
+  border: none;
+  border-radius: 12px;
+  position: absolute;
+  top: 10px;
 }
 
 footer {
