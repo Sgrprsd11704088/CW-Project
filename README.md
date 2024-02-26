@@ -5,7 +5,7 @@ We have created a clone of the landing page of Decathlon and also replicated a f
 
 ## Project Type
 Frontend
-**Orginal_website's Link**
+**Reference website**
 Decathlon- https://www.decathlon.in/
 Viatour-https://www.figma.com/file/KhG0vifIhXr8Rw5Va5MzNA/100%2B-Travel-Landing-website-templates-(Community)?type=design&node-id=4107-482&mode=design&t=SLIJUHirbrwTVCPr-0
 
