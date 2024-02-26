@@ -1,4 +1,4 @@
-# Project Title
+# Contruct Week Project - syntax-artisan-0123
 
 ## Introduction
 We have created a clone of the landing page of Decathlon and also replicated a figma's webpage which was assigned by our IA (Rahul Rajeevan)  the overall aim of this project was to test our coding skills as well as our team-building skills. They both were collaborative projects created by Tushar Bisht, Sagar Prasad and Kunwar Prakash.
