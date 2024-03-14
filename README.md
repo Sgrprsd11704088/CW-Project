@@ -18,13 +18,13 @@ Figma's landing page: https://cw-project-nlti-git-main-sagar-prasads-projects.ve
 ## Directory Structure
 my-app/ <br/>
 ├─ bootstrap/ <br/>
-  ├─ index.html __
-  ├─ index.css __
-  ├─ ... __
+| ├─ index.html __
+| ├─ index.css __
+| ├─ ... __
 ├─ figma/ <br/>
-  ├─ assets/ __
-  ├─ index.html __
-  ├─ index.scss __
+| ├─ assets/ __
+| ├─ index.html __
+| ├─ index.scss __
 ├─ .gitignore <br/>
 ├─ README.md <br/>
 
